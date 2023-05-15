@@ -1,30 +1,17 @@
 # Constraints
 
-Some boundaries around our project.
+- There are always some limitations in project that is called constraints.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over. these may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+Project Deadline:
+
+- The project must be completed and launched at time.
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over. they may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+- As a beginner i need to learn more in html and js to improve my skills.
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- Working Hours: The work should done a maximum of 8 hours per day.
