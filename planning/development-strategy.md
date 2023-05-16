@@ -1,55 +1,93 @@
-# Project Name
-
-<!-- describe your project -->
+# Hack Your Future rebuild
 
 ---
+
+## User Story Dependencies
+
+[Story Dependency Diagram](user-personas.md)
+
+---
+
+## WIREFRAME
+
+![wireframe](../public/image/design.png)
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- create a new repo
+- add collaborators
+- turn on GitHub pages and give them `write` access
+- protect `main` branch
+- turn on discussion
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Home page
 
-## user story
+> these are necessary for basic usability
 
-<!-- each issue created from this section will have the `for: user story` label -->
+---
 
-> "as a ... i can ... so that ..."
+### Logo
 
-<!-- write any extra notes or description -->
+- As a user I want to see the logo in the left-top of the page
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+### html
 
-### Logic: user story
+- add `header` tag
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### css
 
-### Interface: user story
+- add class `navbar`, `container flex`
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Navigation bar
 
-### Interaction: user story
+- As a user I can navigate through three elements : About,knowledge and contact
+  there's a navigation bar on the right of the logo
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### html
 
-### Documentation: user story
+- add `ul`, `li`, `a`
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### css
+
+- add class `navbar`, `container flex`
+
+### Title
+
+- As a user I can find the title
+
+#### html
+
+- add `h1`
+
+### description
+
+- As a user I can easily find short description about the person
+
+#### html
+
+- add `p`
+
+### about
+
+- As a user I want to have find an idea about the person
+
+#### html
+
+- add `img`
+
+### Knowledge
+
+- As a user I want to see the owner knowledge . ​
+
+#### Get started info : html
+
+- add `section`
+- add `div`
+- add `h1`
+- add `p` ​
+
+### contact
+
+​- As a user I want to see information to contact the owner .
