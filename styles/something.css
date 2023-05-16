@@ -1,4 +1,10 @@
 /* General */
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 section p,
 section span {
   font-weight: 400;
@@ -74,6 +80,12 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.about .content a {
+  text-decoration: none;
+  color: var(--paragraph);
+  font-weight: bold;
 }
 
 /* LOGO */
@@ -307,6 +319,14 @@ nav .wrapper {
   filter: contrast(1.2);
 }
 
+.col-a {
+  grid-area: A;
+}
+
+.col-b {
+  grid-area: B;
+}
+
 .home .col-a {
   text-align: left;
   align-self: center;
@@ -321,4 +341,46 @@ nav .wrapper {
   height: 40rem;
   right: 3rem;
   bottom: 7rem;
+}
+
+/* About */
+
+.about {
+  text-align: left;
+}
+
+.about .content p {
+  margin-block: 2.4rem;
+}
+
+.about .col-a {
+  margin-bottom: 6rem;
+}
+
+.about .col-b {
+  text-align: left;
+  align-self: center;
+}
+
+.about .wrapper {
+  grid-template-columns: 48rem 1fr;
+  grid-template-areas: "B A";
+  gap: 6.7rem;
+}
+
+section header h2 {
+  font-size: 3rem;
+  line-height: 3.9rem;
+  color: var(--primary-color);
+}
+
+.about img {
+  width: 30rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem black;
+  transition: 600ms;
+}
+
+.about img:hover {
+  scale: 1.07;
 }
