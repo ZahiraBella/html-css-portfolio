@@ -6,7 +6,7 @@
 
     <meta property="og:type" content="website" />
 
-    <link rel="stylesheet" href="./styles/something.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <link
@@ -17,23 +17,25 @@
     <title>Zahira | Portfolio</title>
   </head>
   <body>
+    <!--Logo-->
+
     <nav class="navigation">
       <div class="wrapper">
         <a class="logo close" href="#home"> Zahira Bella </a>
-
+        <!--Navigation-->
         <div class="menu">
           <ul>
             <li>
-              <a id="aboutNav" class="close" href="#about">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a id="knowledgeNav" class="close" href="#knowledge">Knowledge</a>
+              <a href="#knowledge">Knowledge</a>
             </li>
             <li>
-              <a id="contactNav" class="close" href="#contact">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
-
+          <!--Social-links-->
           <ul class="social-links">
             <li>
               <a
@@ -94,5 +96,27 @@
         </div>
       </div>
     </nav>
+
+    <!--home-section-->
+
+    <section class="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Hello world</h4>
+            <h1>I am Zahira Bella,</h1>
+          </header>
+          <div class="content">
+            <p class="line typing">A Salesforce Developer.</p>
+
+            <a class="button" href="#contact"> Talk to me </a>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="./public/image/astronaut.svg" alt="Image of an astronaut" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
