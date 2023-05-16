@@ -2,6 +2,8 @@
 
 ## Hiring Manager
 
+[Sarah](https://www.semrush.com/persona/share/1ulylJLHD-bF03NSoLa1rep7riFW01H9coKfgokv8xY/)
+
 - **Bio**: Sarah is a hiring manager at a software development company. She is
   responsible for reviewing portfolios and resumes to identify potential
   candidates for open positions in her team. Sarah is busy and receives numerous
@@ -28,6 +30,8 @@
   candidate for further evaluation.
 
 ## Freelance Designer
+
+[Alex](https://www.semrush.com/persona/share/PuIqlbJ32z8VkUWUBc641u1vR8UfHpT3ZOOHKKN5TOo/)
 
 - **Bio**: Alex is a freelance graphic designer with a focus on branding and
   visual identity. Alex is always on the lookout for talented front-end

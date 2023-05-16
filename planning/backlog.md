@@ -20,8 +20,7 @@ are not necessarily in order and can be adapted or expanded as needed.
   - _Given that I am on the homepage, when I click on the "About Me" link, then
     I should be directed to a page that presents detailed information about me._
 
-- [ ] As a user, I want a portfolio section that displays my projects and allows
-      me to showcase my work.
+- [ ] As a user, I want a portfolio section that displays my Knowledge
 
   - _Given that I am on the homepage, when I click on the "Portfolio" link, then
     I should be directed to a page that showcases my projects with descriptions,
