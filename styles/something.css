@@ -1,4 +1,11 @@
 /* General */
+section p,
+section span {
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 130%;
+  color: var(--paragraph);
+}
 
 :root {
   --hue: 90;
@@ -25,6 +32,16 @@ body {
 
 section {
   padding-block: 13rem;
+}
+
+section h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.08rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
 }
 
 * {
@@ -57,6 +74,20 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+/* LOGO */
+
+a.logo {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 3rem;
+  opacity: 0.7;
+}
+
+.navigation a.logo {
+  font-size: 4rem;
+  opacity: 0.7;
+  color: #00ffd4;
 }
 
 /* NAVIGATION */
@@ -154,6 +185,7 @@ nav .wrapper {
   width: 100%;
 }
 
+/* Social-Links */
 .navigation .social-links {
   display: flex;
   flex-direction: row;
@@ -176,16 +208,117 @@ nav .wrapper {
   margin-bottom: 0.3rem;
 }
 
-/* LOGO */
+/* HOME */
 
-a.logo {
-  font-family: "Gemunu Libre", sans-serif;
-  font-size: 3rem;
-  opacity: 0.7;
+.home {
+  height: 100vh;
+  padding-block: 0;
+  background-image: var(--bg-image);
+  display: flex;
+  padding-top: var(--nav-height);
 }
 
-.navigation a.logo {
-  font-size: 4rem;
-  opacity: 0.7;
-  color: #00ffd4;
+.home .wrapper {
+  height: 53rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+  position: relative;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "A B";
+}
+
+.home h1 {
+  font-size: 5rem;
+  color: var(--headline);
+  line-height: 110%;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  display: inline-flex;
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: bold;
+  margin-bottom: 3.2rem;
+}
+
+.home .line {
+  border-right: 0.2rem solid var(--primary-color);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home .typing {
+  animation: line-typing 500ms steps(40) infinite normal,
+    typing 2s steps(40) 1.4s normal backwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 27.5rem;
+  }
+}
+
+@keyframes line-typing {
+  from {
+    border-right-color: var(--primary-color);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.button {
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+  margin-bottom: 6rem;
+  padding: 1.4rem 3rem;
+  width: fit-content;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  position: relative;
+  transition: 400ms;
+}
+
+.home .button {
+  margin: 0;
+}
+
+.home img {
+  width: 42rem;
+  min-width: 14.5rem;
+  display: block;
+  margin-inline: auto;
+  filter: contrast(1.2);
+}
+
+.home .col-a {
+  text-align: left;
+  align-self: center;
+}
+
+.home .content p {
+  font-size: 2.5rem;
+}
+
+.home .wrapper::before {
+  width: 40rem;
+  height: 40rem;
+  right: 3rem;
+  bottom: 7rem;
 }
