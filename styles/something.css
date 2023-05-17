@@ -392,23 +392,23 @@ section header h2 {
 
 /* knowledge */
 
-#knowledge h2 {
+.knowledge h2 {
   width: 49.7rem;
   margin-inline: auto;
 }
 
-#knowledge header h2 {
+.knowledge header h2 {
   margin-bottom: 6rem;
 }
 
-#knowledge .cards {
+.knowledge .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 4rem;
 }
 
-#knowledge .card {
+.knowledge .card {
   padding: 2.8rem;
   text-align: left;
   background: var(--secondary-color);
@@ -419,14 +419,14 @@ section header h2 {
   flex-grow: 1;
 }
 
-#knowledge .card:hover {
+.knowledge .card:hover {
   background: var(--third-color);
 }
 
-#knowledge .card h3 {
+.knowledge .card h3 {
   margin-block: 1.6rem;
 }
 
-#knowledge .card img {
+.knowledge .card img {
   width: 10rem;
 }
