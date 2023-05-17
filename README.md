@@ -28,7 +28,7 @@ website. Thank you for visiting my portfolio!
 
 ## Screenshots 📷
 
-![Example screenshot](./public/image/WEB-site.png)
+![Example screenshot](./public/image/screenshoot.png)
 
 ## Technologies 💻
 
@@ -36,7 +36,6 @@ website. Thank you for visiting my portfolio!
 - CSS3
 - VSC Code
 - NPM
-- JS
 
 ## Setup 🛠️
 
