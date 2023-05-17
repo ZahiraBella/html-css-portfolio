@@ -50,11 +50,16 @@ section h4 {
   margin-bottom: 1.6rem;
 }
 
+section h3 {
+  color: var(--headline);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Salesforce Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
 }
 
 html {
@@ -383,4 +388,45 @@ section header h2 {
 
 .about img:hover {
   scale: 1.07;
+}
+
+/* knowledge */
+
+#knowledge h2 {
+  width: 49.7rem;
+  margin-inline: auto;
+}
+
+#knowledge header h2 {
+  margin-bottom: 6rem;
+}
+
+#knowledge .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+#knowledge .card {
+  padding: 2.8rem;
+  text-align: left;
+  background: var(--secondary-color);
+  border-radius: 0.6rem;
+  box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+  transition: 400ms;
+  width: 30%;
+  flex-grow: 1;
+}
+
+#knowledge .card:hover {
+  background: var(--third-color);
+}
+
+#knowledge .card h3 {
+  margin-block: 1.6rem;
+}
+
+#knowledge .card img {
+  width: 10rem;
 }
