@@ -461,7 +461,6 @@ section header h2 {
 
 .contact {
   text-align: left;
-  background-color: var(--secondary-color);
 }
 
 .contact .col-a {
@@ -511,6 +510,7 @@ footer .social-links {
 footer {
   text-align: left;
   color: var(--paragraph);
+  background-color: var(--secondary-color);
 }
 
 footer .logo {
@@ -526,10 +526,6 @@ footer .wrapper {
 }
 
 @media (max-width: 768px) {
-  .home .wrapper {
-    height: 35rem;
-  }
-
   .home h1 {
     font-size: 3rem;
   }
@@ -544,5 +540,80 @@ footer .wrapper {
 
   .contact .wrapper {
     grid-template-columns: 4fr 30.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .home .col-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+  }
+
+  .home .wrapper {
+    height: 35rem;
+    flex-direction: column;
+  }
+
+  .navigation .social-links {
+    display: none;
+  }
+
+  .home {
+    padding-top: 5rem;
+  }
+
+  * {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .home img {
+    margin-top: -100px;
+    display: flex;
+    width: 350px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about .wrapper {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+
+  .section {
+    padding-block: 0;
+  }
+
+  .about img {
+    width: 18rem;
+  }
+
+  .knowledge .cards {
+    flex-direction: column;
+  }
+
+  .knowledge .card {
+    width: 100%;
+  }
+
+  .navigation a.logo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 425px) {
+  * {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .contact {
+    background-image: var(--bg-image);
   }
 }
