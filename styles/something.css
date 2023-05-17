@@ -524,3 +524,25 @@ footer .wrapper {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "A B";
 }
+
+@media (max-width: 768px) {
+  .home .wrapper {
+    height: 35rem;
+  }
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .about .wrapper {
+    grid-template-columns: 35rem 1fr;
+  }
+
+  section {
+    padding-block: 7rem;
+  }
+
+  .contact .wrapper {
+    grid-template-columns: 4fr 30.5rem;
+  }
+}
