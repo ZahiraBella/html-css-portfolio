@@ -1,3 +1,5 @@
+/* stylelint-disable no-descending-specificity */
+
 /* General */
 
 img {
@@ -121,6 +123,13 @@ nav {
   position: fixed;
   top: 0;
   z-index: 100;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav.scroll {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
 }
 
 nav .wrapper {
@@ -478,5 +487,40 @@ section header h2 {
 
 .contact .wrapper {
   grid-template-columns: 1fr 57.5rem;
+  grid-template-areas: "A B";
+}
+
+/* footer */
+
+footer .col-a {
+  align-self: center;
+}
+
+footer .col-b {
+  align-self: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer .social-links {
+  justify-content: flex-end;
+}
+
+footer {
+  text-align: left;
+  color: var(--paragraph);
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+  opacity: 0.6;
+  color: #fd2b5a;
+}
+
+footer .wrapper {
+  grid-template-columns: 1fr 1fr;
   grid-template-areas: "A B";
 }
