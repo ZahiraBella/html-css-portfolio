@@ -617,3 +617,15 @@ footer .wrapper {
     background-image: var(--bg-image);
   }
 }
+
+@media (max-width: 375px) {
+  .html,
+  body {
+    width: 111%;
+    height: 100%;
+  }
+
+  .wrapper {
+    padding-inline: 0;
+  }
+}
