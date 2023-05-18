@@ -16,6 +16,8 @@ website. Thank you for visiting my portfolio!
   - [Table of Contents 📚](#table-of-contents-)
   - [General Info 💻](#general-info-)
   - [Screenshots 📷](#screenshots-)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
   - [Technologies 💻](#technologies-)
   - [Setup 🛠️](#setup-️)
   - [Status 🚀](#status-)
@@ -28,7 +30,13 @@ website. Thank you for visiting my portfolio!
 
 ## Screenshots 📷
 
+### Desktop
+
 ![Example screenshot](./public/image/screenshoot.png)
+
+### Mobile
+
+![Example screenshot](./public/image/mobile.png)
 
 ## Technologies 💻
 
