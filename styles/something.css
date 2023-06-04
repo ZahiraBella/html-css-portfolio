@@ -631,6 +631,11 @@ footer .social {
     flex-direction: row;
     gap: 1.5rem;
   }
+  
+  .navigation .social-links li {
+    display: flex;
+    align-items: center;
+  }
 
   .navigation .social-links li:nth-child(1) svg path {
     stroke: var(--primary-color);
